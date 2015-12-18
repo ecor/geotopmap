@@ -1,0 +1,16 @@
+Package: geotopmap
+Maintainer: Emanuele Cordano <emanuele.cordano@gmail.com>
+License: GPL (>= 2)
+Title: geotopmap
+Type: Package
+Author: Emanuele Cordano, inspired by Fabio Zottele
+Description: Geographical Support for Visualisazion of Raster maps, especially provided by www.geotop.org
+Version: 1.0
+Date: 2015-12-10
+Depends:
+    raster,
+    ggmap,
+    stringr,scales,reshape2
+Imports: ggplot2
+Suggests:
+   geotopbricks
